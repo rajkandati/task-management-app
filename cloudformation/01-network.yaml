@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Network infrastructure for 3-tier task management application'
+
+Parameters:
+  ProjectName:
+    Type: String
+    Default: task-management-app
+    Description: Name prefix for all resources
+Resources:
+  # AWS resources to create
+Outputs:
+  # Values to export
